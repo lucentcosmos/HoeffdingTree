@@ -1,0 +1,11 @@
+# Configuration file for the NY electricity demand data stream 
+dataFormat: (timeOfDay, dayOfWeek, month, stateName, load, ptid, lbmp, mcl, mcc)
+dayOfWeek: discrete(mon, tue, wed, thu, fri, sat, sun) # day of week 
+month: discrete(jan, feb, mar, apr, may, jun, jul, aug, sep, oct, nov, dec) # month of year 
+timeOfDay: discrete(morning, noon, night) # corresponds to working shifts 
+stateName: discrete(CENTRL, DUNWOD, GENESE, HUD_VL, ...) # state name 
+load: numeric # crawled from NY website {low, normal, high, very high}
+ptid: numeric # crawled frmo NY website {0,1,2,3,4,5,6,7,8,9,10}
+lbmp: numeric # crawled from NY website 
+mcl: numeric # marginal cost losses 
+mcc: numeric # marginal cost congestion 

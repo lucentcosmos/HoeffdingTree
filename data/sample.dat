@@ -1,0 +1,12 @@
+1,low,male,employed,C,appropriate
+1,high,male,employed,A,appropriate
+1,low,male,employed,F,appropriate
+1,low,female,employed,F,appropriate
+3.14,low,female,employed,C,appropriate
+1,low,male,employed,B,appropriate
+1,low,male,employed,B,appropriate
+1,low,male,employed,D,inappropriate
+1,low,female,employed,E,inappropriate
+1,low,female,employed,E,inappropriate
+1,low,female,employed,E,inappropriate
+1,low,male,employed,E,inappropriate

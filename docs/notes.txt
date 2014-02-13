@@ -1,0 +1,20 @@
+--------------------------------------------------------------------
+(*) [DONE] Namespace za HT 
+(*) Locen class za managment lastnosti atributov 
+(*) Enostavni tipi 
+(*) Kaj ce se v listih nabere veliko vrednosti 
+(*) [DONE] Loci konfiguracijo 
+(*) Zdruzevanje atributov --- hevristika za zdruzevanje 
+(*) Vzemi majority E_i v fotru namesto E pri praznih listih 
+(*) [DONE] Naj HoeffdingTree vzame objekt, ki ima shranjeno konfiguracijo (glej TOgParam v standalone.cpp) 
+(*) [DONE] TEnv za gracePeriod in ostale 
+--------------------------------------------------------------------
+(*) Handle ill-formed inputs 
+(*) Robust parser and flexible configuration file 
+--------------------------------------------------------------------
+
+Treuntno na `Titanic' data setu:
+	(*) ~50min za ~220 000 000 ucnih primerov (~4.4 GB). 
+	(*) ~5min za ~22 000 000 ucnih primerov (~450 MB). 
+	(*) ~28sek za ~2 200 000 ucnih primerov (~45 MB). 
+	(*) ~4sek za 220 000 ucnih primerov (~4.5 MB). 

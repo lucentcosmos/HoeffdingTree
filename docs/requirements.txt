@@ -1,0 +1,17 @@
+Configuration file:
+	Memory constraints 
+	Parameter 0 <= delta <= 1
+	Parameter 0 <= tau <= 1
+	Parameter Nmin
+	Parameter f
+	Train example format 
+	Attribute types and values 
+	Dependent variable specification 
+	
+NOTES:
+	Use TSpecFunc::Entropy? 
+	Find efficient way of computing $\Maj(E_i)$ for $E_i\subseteq E$ for parent node examples $E$. 
+	Find nice way to initialize data structures from config --- that is, PartitionV, etc. 
+	Make good use of the attribute managment class TAttrMan. 
+	Generic attribute estimation heuristic via C++11 lambda functions --- takes only sufficient statistics. 
+	
