@@ -1,12 +1,12 @@
 HoeffdingTree
 =============
 
-Implementation of algorithms for incremental classification [[1](#references),[2](#references)] and regression [[3](#references),[6](#references)] tree learning from time-changing data streams. 
+Implementation of algorithms for incremental classification [[1](#references),[2](#references)] and regression [[3](#references),[6](#references)] tree learning from time-changing data streams. See [[8](#references)] for detailed description of the main ideas behind these algorithms.
 
 As of this writing this is still work in progress. The plan is to integrate this it into [QMiner](https://github.com/qminer/qminer) soon.
 
 ## Simple usage example
-Simple config example.
+Configuration file describes data stream. Below is a simple config example.
 ```
 dataFormat: (status,age,sex,survived)
 status: discrete(first,second,third,crew)
@@ -47,8 +47,6 @@ void ProcessData(const TStr& FileNm, PHoeffdingTree HoeffdingTree) {
 	while(FIn.GetNextLn(Line)) { HoeffdingTree->Process(Line, ','); }
 }
 ```
-
-See [[8](#references)] for detailed description of the main ideas behind these algorithms.
 
 # References
 + [1] Domingos and Hulten, [Mining high-speed data streams](http://homes.cs.washington.edu/~pedrod/papers/kdd00.pdf), KDD`00
