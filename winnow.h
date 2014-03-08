@@ -20,7 +20,7 @@ namespace TDatastream {
 		}
 		void Process(const TIntV& Example);
 		int Classify(const TIntV& Example);
-		void GetWeighs(TFltV& Model) const {
+		void SetWeighs(TFltV& Model) const {
 			Model = WeightV;
 		}
 	private:
