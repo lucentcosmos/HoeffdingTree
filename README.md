@@ -3,7 +3,7 @@ HoeffdingTree
 
 Implementation of algorithms for incremental classification [[1](#references),[2](#references)] and regression [[3](#references),[6](#references)] tree learning from time-changing data streams. See [[8](#references)] for detailed description of the main ideas behind these algorithms.
 
-As of this writing this is still work in progress. The plan is to integrate this it into [QMiner](https://github.com/qminer/qminer) soon.
+As of this writing this is still work in progress. The plan is to integrate this into [QMiner](https://github.com/qminer/qminer) soon.
 
 ## Simple usage example
 Configuration file describes data stream. Below is a simple config example.
