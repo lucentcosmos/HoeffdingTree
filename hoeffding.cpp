@@ -1152,9 +1152,9 @@ namespace TDatastream {
 					// (m * P(c_i) + n(x_k,c_i))/(P(c_i) * (m + n(x_k)))
 					pc = (nk+1.0)/(ExamplesN+LabelsN); // laplace estimate for P(c_i) 
 					pk *= (2.0*pc+Counts.GetDat(TmpTriple))/(pc*(2+SubExamplesN.GetVal(i)));
-				} else {
-					// printf("[DEBUG] Zero probability!\n");
-				}
+				}/* else {
+					printf("[DEBUG] Zero probability!\n");
+				}*/
 			}
 			if (MxProb < pk) {
 				MxProb = pk; MxLabel = LabelN;
