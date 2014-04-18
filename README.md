@@ -44,7 +44,7 @@ void ProcessData(const TStr& FileNm, PHoeffdingTree HoeffdingTree) {
 	Assert(TFile::Exists(FileNm));
 	TFIn FIn(FileNm);
 	TStr Line;
-	while(FIn.GetNextLn(Line)) { HoeffdingTree->Process(Line, ','); }
+	while (FIn.GetNextLn(Line)) { HoeffdingTree->Process(Line, ','); }
 }
 ```
 
