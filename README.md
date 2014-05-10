@@ -5,8 +5,9 @@ Implementation of algorithms for incremental classification [[1](#references),[2
 
 As of this writing this is still work in progress. The plan is to integrate this into [QMiner](https://github.com/qminer/qminer) soon. (Note that this code requires [GLib](https://github.com/qminer/qminer/tree/master/src/glib).)
 
-_NOTE_: If you'll try to build this, note that GLib uses v0.10 version of libuv; so run `git clone -b v0.10 https://github.com/joyent/libuv.git` in case you need to build it
-_NOTE_: We started integrating this code into QMiner.
+_Note_: If you'll try to build this, note that GLib uses v0.10 version of libuv; so run `git clone -b v0.10 https://github.com/joyent/libuv.git` in case you need to build it
+
+_Note_: We started integrating this code into QMiner.
 
 ## Simple usage example
 Configuration file describes data stream. Below is a simple config example.
