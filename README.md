@@ -9,6 +9,8 @@ _Note_: If you'll try to build this, note that GLib uses v0.10 version of libuv;
 
 _Note_: We started integrating this code into QMiner.
 
+**Note** [12 May 2014]: I will no longer maintain this repository. As of now the learner will be availble through [QMiner](http://qminer.ijs.si/). I _might_ clean up the code so others can use it, but I believe it will be much, much nicer when exposed through QMiner Javascript API. It will be easy to use, assume zero C++ knowledge, require no recompilation, etc. See [QMiner documentation](https://github.com/qminer/qminer/wiki/JavaScript) for details.
+
 ## Simple usage example
 Configuration file describes data stream. Below is a simple config example.
 ```
@@ -18,6 +20,31 @@ age: discrete(adult,child)
 sex: discrete(male,female)
 survived: discrete(yes,no)
 ```
+
+Future version of the HoeffdingTree --- to be available in QMiner --- will accept JSON configuration.
+```js
+{
+	"dataFormat": ["status", "sex", "age", "survived"],
+	"sex": {
+		"type": "discrete",
+		"values": ["male", "female"]
+	},
+	"status": {
+		"type": "discrete",
+		"values": ["first", "second", "third", "crew"]
+	},
+	"age": {
+		"type": "discete",
+		"values": ["child", "adult"]
+	},
+	"survived": {
+		"type": "discrete",
+		"values": ["yes", "no"]
+	}
+}
+```
+
+The goal is to expose it through QMiner Javascript API. (This will happen the next few days.)
 
 Simple usage example.
 ```c++
