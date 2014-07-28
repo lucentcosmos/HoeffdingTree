@@ -11,7 +11,7 @@ _Note_: We started integrating this code into QMiner.
 
 _Note_: I will no longer maintain this repository. As of now the learner will be availble through [QMiner](http://qminer.ijs.si/). I _might_ clean up the code so others can use it, but I believe it will be much, much nicer when exposed through QMiner Javascript API. It will be easy to use, assume zero C++ knowledge, require no recompilation, etc. See [QMiner documentation](https://github.com/qminer/qminer/wiki/JavaScript) for details.
 
-_Node_: Check out incremental classification and regression tree learning in QMiner [here](https://github.com/blazs/qminer/blob/master/examples/hoeffdingtree/). User code is in `src/ht.js`. (This is a working version on my fork. For the stable one go [here](https://github.com/qminer/qminer/tree/master/examples/hoeffdingtree).)
+_Note_: Check out incremental classification and regression tree learning in QMiner [here](https://github.com/blazs/qminer/blob/master/examples/hoeffdingtree/). User code is in `src/ht.js`. (This is a working version on my fork. For the stable one go [here](https://github.com/qminer/qminer/tree/master/examples/hoeffdingtree).)
 ## Simple usage example
 Configuration file describes data stream. Below is a simple config example.
 ```
